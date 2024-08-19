@@ -1,0 +1,28 @@
+# exclude generated or boilerplate files
+# IDEs
+.idea/
+.settings/
+.classpath
+.project
+.p4ignore
+*.iml
+
+# compiled class files
+*.class
+#Angular common build folders
+bundle/target
+package/target
+
+#Angular Build folders
+bundle/src/main/webapp/apps/shell/
+bundle/src/main/webapp/dist/
+bundle/src/main/webapp/libs/**/node_modules/
+bundle/src/main/webapp/node_modules/
+bundle/src/main/webapp/tools/
+
+#external scripts
+bundle/src/main/webapp/scripts/
+bundle/src/main/webapp/styles/
+
+bundle/src/main/webapp/node_modules/
+package/target
