@@ -9,10 +9,10 @@
 
     <properties>
       <!-- START: Bundle specific configuration. Verify and Change as per environment -->
-		<developerUserName>developer</developerUserName>
-		<developerPassword>developer</developerPassword>
+		<developerUserName>dinesh.bandaru</developerUserName>
+		<developerPassword>123</developerPassword>
 		<!-- Server name with Jetty port. -->
-		<webUrl>http://localhost:8008</webUrl>
+		<webUrl>http://10.210.5.105:8008</webUrl>
 		<!--  Decides which overlay mode the SDK calls to server work in. -->
 		<overlayMode>1</overlayMode>
 	  <!-- END: Bundle specific configuration.-->

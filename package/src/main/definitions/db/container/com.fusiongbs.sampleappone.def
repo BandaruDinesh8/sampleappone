@@ -1,0 +1,45 @@
+begin container
+   name           : com.fusiongbs.sampleappone
+   type           : 2
+   num-references : 7
+   timestamp      : 1724073862
+   owner          : com.fusiongbs
+   last-changed   : dinesh.bandaru
+   export-version : 12
+   object-prop    : 5\90019\2\10\90016\4\1\1\90002\4\26\com.fusiongbs.sampleappone\90021\4\26\com.fusiongbs.sampleappone\90015\2\4\
+reference {
+   type           : 32839
+   datatype       : 1
+   value          : 2\2\
+}
+reference {
+   type           : 32839
+   datatype       : 1
+   value          : 2\2\
+}
+reference {
+   type           : 32849
+   datatype       : 1
+   value          : 0\
+}
+reference {
+   type           : 16
+   datatype       : 1
+   value          : 4\43\com.fusiongbs.sampleappone:BMC Modern Shell\
+}
+reference {
+   type           : 32839
+   datatype       : 1
+   value          : 2\2\
+}
+reference {
+   type           : 32849
+   datatype       : 1
+   value          : 0\
+}
+reference {
+   type           : 16
+   datatype       : 1
+   value          : 4\37\com.fusiongbs.sampleappone:First view\
+}
+end

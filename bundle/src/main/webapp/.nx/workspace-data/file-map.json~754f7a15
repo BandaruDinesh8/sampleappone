@@ -1,0 +1,533 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.6.0",
+  "deps": {
+    "@angular/animations": "14.3.0",
+    "@angular/cdk": "14.2.7",
+    "@angular/common": "14.3.0",
+    "@angular/compiler": "14.3.0",
+    "@angular/core": "14.3.0",
+    "@angular/forms": "14.3.0",
+    "@angular/platform-browser": "14.3.0",
+    "@angular/platform-browser-dynamic": "14.3.0",
+    "@angular/router": "14.3.0",
+    "@bmc-ux/adapt-angular": "file:./scripts/bmc-ux/adapt-angular-14.28.6.tgz",
+    "@bmc-ux/adapt-charts": "file:./scripts/bmc-ux/adapt-charts-14.27.0.tgz",
+    "@bmc-ux/adapt-css": "file:./scripts/bmc-ux/adapt-css-4.139.2.tgz",
+    "@bmc-ux/adapt-radar": "file:./scripts/bmc-ux/adapt-radar-14.26.0.tgz",
+    "@bmc-ux/adapt-table": "file:./scripts/bmc-ux/adapt-table-14.28.4.tgz",
+    "@bmc-ux/adapt-w3c-keyboard": "file:./scripts/bmc-ux/adapt-w3c-keyboard-1.0.0.tgz",
+    "@bmc-ux/dpl-iconfont": "file:./scripts/bmc-ux/dpl-iconfont-2.128.0.tgz",
+    "@bmc-ux/velocity-animate": "file:./scripts/bmc-ux/velocity-animate-2.0.6-bmc-patch.5.tgz",
+    "@clientio/rappid": "file:./scripts/clientio/rappid-3.6.3.tgz",
+    "@helix/com-bmc-arsys-rx-innovationstudio": "file:./tools/rx-libs/com-bmc-arsys-rx-innovationstudio",
+    "@helix/platform": "file:./tools/rx-libs/platform",
+    "@ngrx/component-store": "14.3.3",
+    "@ngrx/effects": "14.3.3",
+    "@ngrx/entity": "14.3.3",
+    "@ngrx/router-store": "14.3.3",
+    "@ngrx/store": "14.3.3",
+    "@ngx-translate/core": "14.0.0",
+    "@schematics/schematics": "^0.1102.12",
+    "@swimlane/ngx-graph": "8.0.2",
+    "angular-split": "14.1.0",
+    "bignumber.js": "9.1.1",
+    "ckeditor4": "file:./scripts/ckeditor-4.22.1",
+    "ckeditor4-angular": "1.3.0",
+    "core-js": "3.30.1",
+    "css-element-queries": "1.2.3",
+    "d3": "5.16.0",
+    "file-saver": "2.0.5",
+    "jsep": "0.4.0",
+    "lodash": "4.17.21",
+    "lodash-es": "4.17.21",
+    "moment": "2.29.4",
+    "moment-timezone": "0.5.43",
+    "primeicons": "6.0.1",
+    "primeng": "14.2.4-lts",
+    "quoted-printable": "1.0.1",
+    "rxjs": "6.6.7",
+    "tslib": "2.5.0",
+    "utf8": "3.0.0",
+    "web-animations-js": "2.3.2",
+    "zone.js": "0.12.0",
+    "@angular-architects/module-federation": "14.3.14",
+    "@angular-builders/custom-webpack": "14.1.0",
+    "@angular-devkit/build-angular": "^14.2.0",
+    "@angular-devkit/schematics-cli": "^14.2.0",
+    "@angular-eslint/eslint-plugin": "14.0.4",
+    "@angular-eslint/eslint-plugin-template": "14.0.4",
+    "@angular-eslint/template-parser": "14.0.4",
+    "@angular/cli": "14.2.11",
+    "@angular/compiler-cli": "14.3.0",
+    "@angular/language-service": "14.3.0",
+    "@babel/core": "^7.0.0",
+    "@helix/schematics": "file:./tools/rx-libs/platform/schematics",
+    "@ngrx/store-devtools": "14.3.3",
+    "@nrwl/angular": "14.8.8",
+    "@nrwl/eslint-plugin-nx": "14.8.8",
+    "@nrwl/jest": "14.8.8",
+    "@nrwl/linter": "14.8.8",
+    "@nrwl/workspace": "14.8.8",
+    "@types/ckeditor": "^4.9.10",
+    "@types/d3": "^5.7.2",
+    "@types/file-saver": "2.0.5",
+    "@types/jest": "28.1.8",
+    "@types/lodash": "4.14.194",
+    "@types/node": "^14.15.0",
+    "@typescript-eslint/eslint-plugin": "5.36.1",
+    "@typescript-eslint/parser": "5.36.1",
+    "dotenv": "10.0.0",
+    "eslint": "8.38.0",
+    "eslint-config-prettier": "8.8.0",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-jsdoc": "43.0.7",
+    "eslint-plugin-prefer-arrow": "1.2.3",
+    "husky": "^7.0.4",
+    "jest": "28.1.3",
+    "jest-environment-jsdom": "28.1.3",
+    "jest-extended": "^0.11.1",
+    "jest-jasmine2": "28.1.3",
+    "jest-preset-angular": "12.2.2",
+    "lint-staged": "^12.3.7",
+    "ng-packagr": "~14.2.0",
+    "nx": "^19.6.0",
+    "postcss": "^8.3.9",
+    "postcss-import": "^14.0.2",
+    "postcss-preset-env": "^7.8.3",
+    "postcss-url": "^10.1.1",
+    "prettier": "2.8.7",
+    "sass": "1.62.0",
+    "sass-loader": "13.2.2",
+    "ts-jest": "28.0.8",
+    "ts-node": "10.9.1",
+    "typescript": "4.8.4",
+    "webpack": "^5.80.0"
+  },
+  "pathMappings": {
+    "@com.fusiongbs.sampleappone/com-fusiongbs-sampleappone": [
+      "libs/com-fusiongbs-sampleappone/src/index.ts"
+    ]
+  },
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".nx/workspace-data/parsed-lock-file.json",
+        "hash": "7645911499404228059"
+      },
+      {
+        "file": "nx.json",
+        "hash": "9755480623109572568"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "255872879581142839"
+      },
+      {
+        "file": "apps/.gitkeep",
+        "hash": "4055606894390288348"
+      },
+      {
+        "file": "jest.config.js",
+        "hash": "16613481052969162201"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "3643323720369449506"
+      },
+      {
+        "file": "README.md",
+        "hash": "15328561098056773836"
+      },
+      {
+        "file": ".nx/workspace-data/lockfile.hash",
+        "hash": "8752412770340571564"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "9483251403686547478"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "2704100919600181621"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "13725753382974612954"
+      },
+      {
+        "file": ".nx/workspace-data/project-graph.json",
+        "hash": "10090029798097033922"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "16021773484443121436"
+      },
+      {
+        "file": "postinstall.js",
+        "hash": "3617326322019759920"
+      },
+      {
+        "file": "decorate-angular-cli.js",
+        "hash": "14319486242279653168"
+      },
+      {
+        "file": "package.json",
+        "hash": "3990315482824459816"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "5196175906664045425"
+      },
+      {
+        "file": ".nx/workspace-data/file-map.json",
+        "hash": "8663620650163882221"
+      },
+      {
+        "file": ".nx/workspace-data/file-map.json~aaa69728",
+        "hash": "5992218025377942557"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "12541273196522560996"
+      },
+      {
+        "file": "preinstall.js",
+        "hash": "2470006826459639826"
+      },
+      {
+        "file": "proxy.conf.js",
+        "hash": "3787846274806071155"
+      },
+      {
+        "file": "postbuild.js",
+        "hash": "16454541671966555692"
+      },
+      {
+        "file": "libs/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "angular.json",
+        "hash": "15313209533167312405"
+      },
+      {
+        "file": ".nx/workspace-data/d/daemon.log",
+        "hash": "9530836011025331721"
+      }
+    ],
+    "projectFileMap": {
+      "shell": [
+        {
+          "file": "apps/shell/.browserslistrc",
+          "hash": "12834726562705368328"
+        },
+        {
+          "file": "apps/shell/.eslintrc.json",
+          "hash": "10161069758649878735"
+        },
+        {
+          "file": "apps/shell/jest.config.js",
+          "hash": "15062322221778713286"
+        },
+        {
+          "file": "apps/shell/src/app/app-routing.module.ts",
+          "hash": "17356816987878529846",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router",
+            "npm:@helix/platform",
+            [
+              "npm:@helix/platform",
+              "dynamic"
+            ],
+            [
+              "npm:@helix/com-bmc-arsys-rx-innovationstudio",
+              "dynamic"
+            ],
+            [
+              "@com.fusiongbs.sampleappone/com-fusiongbs-sampleappone",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "apps/shell/src/app/app.component.html",
+          "hash": "13628335001095535106"
+        },
+        {
+          "file": "apps/shell/src/app/app.component.prod.ts",
+          "hash": "483165660057267307",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@helix/platform",
+            "npm:@bmc-ux/adapt-angular",
+            "npm:@bmc-ux/dpl-iconfont"
+          ]
+        },
+        {
+          "file": "apps/shell/src/app/app.component.scss",
+          "hash": "6508610819664474098"
+        },
+        {
+          "file": "apps/shell/src/app/app.component.ts",
+          "hash": "17437773792540695646",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@helix/platform",
+            "npm:@bmc-ux/adapt-angular",
+            "npm:@bmc-ux/dpl-iconfont"
+          ]
+        },
+        {
+          "file": "apps/shell/src/app/app.module.prod.ts",
+          "hash": "12095467403034471196",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core",
+            "npm:@angular/platform-browser",
+            "npm:@bmc-ux/adapt-angular",
+            "npm:@helix/platform",
+            "npm:@ngrx/effects",
+            "npm:@ngrx/store",
+            "npm:@ngrx/store-devtools"
+          ]
+        },
+        {
+          "file": "apps/shell/src/app/app.module.ts",
+          "hash": "7736000918322390622",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core",
+            "npm:@angular/platform-browser",
+            "npm:@bmc-ux/adapt-angular",
+            "npm:@helix/platform",
+            "npm:@ngrx/effects",
+            "npm:@ngrx/store",
+            "npm:@ngrx/store-devtools",
+            "@com.fusiongbs.sampleappone/com-fusiongbs-sampleappone"
+          ]
+        },
+        {
+          "file": "apps/shell/src/app/error-pages.constant.ts",
+          "hash": "12542086208558850085"
+        },
+        {
+          "file": "apps/shell/src/app/rsso-debug-login-page/rsso-debug-login-page.component.ts",
+          "hash": "11912432071844186429",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@helix/platform",
+            "npm:@angular/platform-browser",
+            "npm:lodash"
+          ]
+        },
+        {
+          "file": "apps/shell/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/shell/src/assets/css/ckeditor/skins/expression-editor/dialog.css",
+          "hash": "16721737835705302504"
+        },
+        {
+          "file": "apps/shell/src/assets/css/ckeditor/skins/expression-editor/editor.css",
+          "hash": "13827531404492151348"
+        },
+        {
+          "file": "apps/shell/src/assets/css/ckeditor/skins/expression-editor/editor_gecko.css",
+          "hash": "9362436774285490751"
+        },
+        {
+          "file": "apps/shell/src/assets/css/ckeditor/skins/expression-editor/rx-suggestions.css",
+          "hash": "10457238949932155715"
+        },
+        {
+          "file": "apps/shell/src/assets/css/ckeditor/skins/expression-editor/skin.js",
+          "hash": "5839826154381049951"
+        },
+        {
+          "file": "apps/shell/src/assets/css/ckeditor/skins/rich-text/dialog.css",
+          "hash": "16721737835705302504"
+        },
+        {
+          "file": "apps/shell/src/assets/css/ckeditor/skins/rich-text/editor.css",
+          "hash": "11703530551609476202"
+        },
+        {
+          "file": "apps/shell/src/assets/css/ckeditor/skins/rich-text/editor_gecko.css",
+          "hash": "9063211398122177504"
+        },
+        {
+          "file": "apps/shell/src/assets/css/ckeditor/skins/rich-text/hidpi/icons_hidpi.png",
+          "hash": "17753113496394036567"
+        },
+        {
+          "file": "apps/shell/src/assets/css/ckeditor/skins/rich-text/icons.png",
+          "hash": "6855370274603907496"
+        },
+        {
+          "file": "apps/shell/src/assets/css/ckeditor/skins/rich-text/skin.js",
+          "hash": "5839826154381049951"
+        },
+        {
+          "file": "apps/shell/src/assets/images/toolbar.png",
+          "hash": "7760705966304769524"
+        },
+        {
+          "file": "apps/shell/src/bootstrap.ts",
+          "hash": "3663053346872848290",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/platform-browser-dynamic"
+          ]
+        },
+        {
+          "file": "apps/shell/src/environments/README.md",
+          "hash": "4683311089942183186"
+        },
+        {
+          "file": "apps/shell/src/environments/environment.prod.ts",
+          "hash": "5406836414239361753"
+        },
+        {
+          "file": "apps/shell/src/environments/environment.ts",
+          "hash": "1389571595849792587"
+        },
+        {
+          "file": "apps/shell/src/i18n/localized-strings.json",
+          "hash": "3485758682868108917"
+        },
+        {
+          "file": "apps/shell/src/index.html",
+          "hash": "14998558160517606575"
+        },
+        {
+          "file": "apps/shell/src/main.ts",
+          "hash": "14701344671644104227"
+        },
+        {
+          "file": "apps/shell/src/polyfills.ts",
+          "hash": "32917242702864270",
+          "deps": [
+            "npm:web-animations-js",
+            "npm:zone.js"
+          ]
+        },
+        {
+          "file": "apps/shell/src/styles.scss",
+          "hash": "2645155007750839620"
+        },
+        {
+          "file": "apps/shell/src/test-setup.ts",
+          "hash": "18223600857169902527",
+          "deps": [
+            "npm:jest-preset-angular",
+            "npm:jest-extended"
+          ]
+        },
+        {
+          "file": "apps/shell/tsconfig.app.json",
+          "hash": "15386679292941638961"
+        },
+        {
+          "file": "apps/shell/tsconfig.json",
+          "hash": "5627705066128587561"
+        },
+        {
+          "file": "apps/shell/tsconfig.spec.json",
+          "hash": "17784714656703800847"
+        }
+      ],
+      "@com.fusiongbs.sampleappone/com-fusiongbs-sampleappone": [
+        {
+          "file": "libs/com-fusiongbs-sampleappone/.eslintrc.json",
+          "hash": "2784124543132397982"
+        },
+        {
+          "file": "libs/com-fusiongbs-sampleappone/README.md",
+          "hash": "18093896871370209552"
+        },
+        {
+          "file": "libs/com-fusiongbs-sampleappone/jest.config.ts",
+          "hash": "898757761630243704"
+        },
+        {
+          "file": "libs/com-fusiongbs-sampleappone/ng-package.json",
+          "hash": "16069617546010569087"
+        },
+        {
+          "file": "libs/com-fusiongbs-sampleappone/package.json",
+          "hash": "2323463548937606564",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core",
+            "npm:tslib"
+          ]
+        },
+        {
+          "file": "libs/com-fusiongbs-sampleappone/src/index.ts",
+          "hash": "16398796607664333098"
+        },
+        {
+          "file": "libs/com-fusiongbs-sampleappone/src/lib/actions/README.md",
+          "hash": "11677988475568847279"
+        },
+        {
+          "file": "libs/com-fusiongbs-sampleappone/src/lib/assets/README.md",
+          "hash": "1809101760955613735"
+        },
+        {
+          "file": "libs/com-fusiongbs-sampleappone/src/lib/com-fusiongbs-sampleappone.module.ts",
+          "hash": "2603358283486843266",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@helix/platform"
+          ]
+        },
+        {
+          "file": "libs/com-fusiongbs-sampleappone/src/lib/i18n/README.md",
+          "hash": "7180260756227749967"
+        },
+        {
+          "file": "libs/com-fusiongbs-sampleappone/src/lib/i18n/localized-strings.json",
+          "hash": "15753941481085060538"
+        },
+        {
+          "file": "libs/com-fusiongbs-sampleappone/src/lib/view-components/README.md",
+          "hash": "9686632456430387468"
+        },
+        {
+          "file": "libs/com-fusiongbs-sampleappone/src/test-setup.ts",
+          "hash": "17711435995618823417",
+          "deps": [
+            "npm:jest-preset-angular"
+          ]
+        },
+        {
+          "file": "libs/com-fusiongbs-sampleappone/tsconfig.json",
+          "hash": "4641633581319666313"
+        },
+        {
+          "file": "libs/com-fusiongbs-sampleappone/tsconfig.lib.json",
+          "hash": "10548458823642729761"
+        },
+        {
+          "file": "libs/com-fusiongbs-sampleappone/tsconfig.lib.prod.json",
+          "hash": "174503844014784742"
+        },
+        {
+          "file": "libs/com-fusiongbs-sampleappone/tsconfig.spec.json",
+          "hash": "13243601256221068338"
+        }
+      ]
+    }
+  }
+}

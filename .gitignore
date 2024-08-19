@@ -26,3 +26,4 @@ bundle/src/main/webapp/styles/
 
 bundle/src/main/webapp/node_modules/
 package/target
+bundle/src/main/webapp/package-lock.json
