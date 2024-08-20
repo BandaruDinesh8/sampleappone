@@ -1,38 +1,46 @@
 begin view definition
-   name           : com.fusiongbs.sampleappone:BMC Modern Shell
+   name           : com.fusiongbs.sampleappone:Testing Action
    definition     : {
    definition     :   "version" : null,
-   definition     :   "lastUpdateTime" : 1724134042886,
+   definition     :   "lastUpdateTime" : 1724136594864,
    definition     :   "lastChangedBy" : "dinesh.bandaru",
    definition     :   "owner" : "dinesh.bandaru",
-   definition     :   "name" : "com.fusiongbs.sampleappone:BMC Modern Shell",
+   definition     :   "name" : "com.fusiongbs.sampleappone:Testing Action",
    definition     :   "tags" : null,
    definition     :   "description" : null,
    definition     :   "overlayGroupId" : "1",
    definition     :   "scope" : "BUNDLE",
    definition     :   "internal" : false,
-   definition     :   "guid" : "IDGADG1AAP0ICAS86SY3S86SY3HS5F",
-   definition     :   "layout" : "{\"outlets\":[{\"name\":\"DEFAULT\",\"columns\":[{\"children\":[\"IDGADG1AAP0ICAS86SY3S86SY3HS5E\"],\"span\":null}]}]}",
+   definition     :   "guid" : "63826d4a-d8b3-48e4-96f5-28c3052ef7c6",
+   definition     :   "layout" : "{\"outlets\":[{\"name\":\"DEFAULT\",\"columns\":[{\"children\":[\"8bd698aa-8a47-4aae-aaa4-0fc4a17d686c\"]}]}]}",
    definition     :   "inputParams" : [ ],
    definition     :   "outputParams" : [ ],
    definition     :   "componentDefinitions" : [ {
    definition     :     "resourceType" : "com.bmc.arsys.rx.services.view.domain.ContainerViewComponentDefinition",
-   definition     :     "lastUpdateTime" : 1724134042886,
+   definition     :     "lastUpdateTime" : 1724136594864,
    definition     :     "lastChangedBy" : "dinesh.bandaru",
    definition     :     "owner" : "dinesh.bandaru",
-   definition     :     "name" : "IDGADG1AAP0ICAS86SY3S86SY3HS5E",
+   definition     :     "name" : "8bd698aa-8a47-4aae-aaa4-0fc4a17d686c",
    definition     :     "tags" : null,
    definition     :     "description" : null,
    definition     :     "overlayGroupId" : "1",
    definition     :     "internal" : false,
-   definition     :     "guid" : "IDGADG1AAP0ICAS86SY3S86SY3HS5E",
-   definition     :     "type" : "rx-shell",
+   definition     :     "guid" : "8bd698aa-8a47-4aae-aaa4-0fc4a17d686c",
+   definition     :     "type" : "rx-action-button",
    definition     :     "propertiesByName" : {
-   definition     :       "allowAppSwitching" : "true",
-   definition     :       "globalSearchCustomSearchState" : null,
-   definition     :       "globalSearchDisabled" : "true",
-   definition     :       "globalSearchUseDefault" : "true",
-   definition     :       "globalSearchRecords" : "[]"
+   definition     :       "availableOnDevices" : "[\"desktop\",\"tablet\",\"mobile\"]",
+   definition     :       "hidden" : "0",
+   definition     :       "recordDefinitionName" : null,
+   definition     :       "icon" : null,
+   definition     :       "label" : "203c76e7-f00a-4244-924e-2f311a6d5742",
+   definition     :       "displayMode" : "standard",
+   definition     :       "iconAlignment" : "left",
+   definition     :       "size" : "default",
+   definition     :       "recordInstance" : null,
+   definition     :       "style" : "primary",
+   definition     :       "disabled" : "0",
+   definition     :       "styles" : null,
+   definition     :       "fieldId" : null
    definition     :     },
    definition     :     "permissions" : [ {
    definition     :       "ownerId" : {
@@ -42,44 +50,24 @@ begin view definition
    definition     :       },
    definition     :       "type" : "VISIBLE"
    definition     :     } ],
-   definition     :     "layout" : "{\"outlets\":[{\"name\":\"DEFAULT\",\"columns\":[{\"children\":[\"IDGADG1AAP0ICAS86SY3S86SY3HS5D\",\"914bf587-a455-4298-9be3-35c997a53530\"],\"span\":null}]},{\"name\":\"actions\",\"columns\":[{\"children\":[]}]}]}",
+   definition     :     "layout" : "{\"outlets\":[{\"name\":\"DEFAULT\",\"columns\":[{\"children\":[]}]}]}",
    definition     :     "componentDefinitions" : [ {
-   definition     :       "resourceType" : "com.bmc.arsys.rx.services.view.domain.ViewComponentDefinition",
-   definition     :       "lastUpdateTime" : 1724134042886,
-   definition     :       "lastChangedBy" : "dinesh.bandaru",
-   definition     :       "owner" : "dinesh.bandaru",
-   definition     :       "name" : "IDGADG1AAP0ICAS86SY3S86SY3HS5D",
-   definition     :       "tags" : null,
-   definition     :       "description" : null,
-   definition     :       "overlayGroupId" : "1",
-   definition     :       "internal" : false,
-   definition     :       "guid" : "IDGADG1AAP0ICAS86SY3S86SY3HS5D",
-   definition     :       "type" : "rx-shell-menu-item",
-   definition     :       "propertiesByName" : {
-   definition     :         "menuItemIcon" : null,
-   definition     :         "hidden" : "false",
-   definition     :         "presentation.launchBehavior" : "sameWindow",
-   definition     :         "menuItemName" : "99d98b71-d867-4740-821a-907227aa43a9",
-   definition     :         "presentation.type" : "fullWidth",
-   definition     :         "styles" : null,
-   definition     :         "viewDefinitionName" : "8fede968-1657-47bb-a5be-31858f8bbbfb",
-   definition     :         "actionName" : "rxShellNavigateToViewAction"
-   definition     :       },
-   definition     :       "permissions" : [ ]
-   definition     :     }, {
    definition     :       "resourceType" : "com.bmc.arsys.rx.services.view.domain.ContainerViewComponentDefinition",
-   definition     :       "lastUpdateTime" : 1724134042886,
+   definition     :       "lastUpdateTime" : 1724136594864,
    definition     :       "lastChangedBy" : "dinesh.bandaru",
    definition     :       "owner" : "dinesh.bandaru",
-   definition     :       "name" : "914bf587-a455-4298-9be3-35c997a53530",
+   definition     :       "name" : "df0709e2-18cc-4a8f-9062-f40582d16ec6",
    definition     :       "tags" : null,
    definition     :       "description" : null,
    definition     :       "overlayGroupId" : "1",
    definition     :       "internal" : false,
-   definition     :       "guid" : "914bf587-a455-4298-9be3-35c997a53530",
-   definition     :       "type" : "rx-shell-user-menu",
+   definition     :       "guid" : "df0709e2-18cc-4a8f-9062-f40582d16ec6",
+   definition     :       "type" : "rx-action",
    definition     :       "propertiesByName" : {
-   definition     :         "menuGroupName" : "User menu"
+   definition     :         "$condition$" : null,
+   definition     :         "name" : "comFusiongbsSampleapponeSampleaction",
+   definition     :         "index" : "0",
+   definition     :         "message" : "${keywords.user}"
    definition     :       },
    definition     :       "permissions" : [ {
    definition     :         "ownerId" : {
@@ -89,7 +77,7 @@ begin view definition
    definition     :         },
    definition     :         "type" : "VISIBLE"
    definition     :       } ],
-   definition     :       "layout" : "{\"outlets\":[{\"name\":\"DEFAULT\",\"columns\":[{\"children\":[]}]}]}",
+   definition     :       "layout" : null,
    definition     :       "componentDefinitions" : [ ]
    definition     :     } ]
    definition     :   } ],
@@ -106,7 +94,7 @@ begin view definition
    definition     :     "parentOverlayGroupId" : null
    definition     :   },
    definition     :   "allowOverlay" : false,
-   definition     :   "type" : "SHELL",
+   definition     :   "type" : "REGULAR",
    definition     :   "styles" : null,
    definition     :   "targetViewDefinitionName" : null,
    definition     :   "targetExtensionContainerGuid" : null

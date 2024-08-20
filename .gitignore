@@ -27,3 +27,9 @@ bundle/src/main/webapp/styles/
 bundle/src/main/webapp/node_modules/
 package/target
 bundle/src/main/webapp/package-lock.json
+bundle/src/main/webapp/.nx/
+bundle/src/main/webapp/.nx/workspace-data/file-map.json
+bundle/src/main/webapp/.nx/workspace-data/lockfile.hash
+bundle/src/main/webapp/.nx/workspace-data/parsed-lock-file.json
+bundle/src/main/webapp/.nx/workspace-data/project-graph.json
+bundle/src/main/webapp/.nx/workspace-data/d/daemon.log

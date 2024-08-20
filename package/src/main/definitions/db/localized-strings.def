@@ -1,4 +1,136 @@
 begin localizable string
+   name           : LSGADG1AAP0IDAS8898GS8898G71OI
+   timestamp      : 1724151102
+   owner          : dinesh.bandaru
+   last-changed   : dinesh.bandaru
+   bundle         : com.fusiongbs.sampleappone
+   stringId       : 1c61033a-05d5-4fca-95b5-cbae89e59fcf
+   owner-objects  : 35\0
+   object-prop    : 3\60093\0\90016\4\1\1\90015\2\4\
+   locale         : default
+   string-text    : Listening
+end
+begin localizable string
+   name           : LSGADG1AAP0IDAS88II8S88II86IXP
+   timestamp      : 1724136498
+   owner          : dinesh.bandaru
+   last-changed   : dinesh.bandaru
+   bundle         : com.fusiongbs.sampleappone
+   stringId       : 203c76e7-f00a-4244-924e-2f311a6d5742
+   owner-objects  : 17\8bd698aa-8a47-4aae-aaa4-0fc4a17d686c
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+   locale         : default
+   string-text    : Doing something
+end
+begin localizable string
+   name           : LSGADG1AAP0IDAS8898GS8898G71OG
+   timestamp      : 1724151102
+   owner          : dinesh.bandaru
+   last-changed   : dinesh.bandaru
+   bundle         : com.fusiongbs.sampleappone
+   stringId       : 276dc937-53a0-4918-92d8-91f467fa4ea3
+   owner-objects  : 35\0
+   object-prop    : 3\60093\0\90016\4\1\1\90015\2\4\
+   locale         : default
+   string-text    : Closed
+end
+begin localizable string
+   name           : LSGADG1AAP0IDAS88PI4S88PI48U64
+   timestamp      : 1724158526
+   owner          : dinesh.bandaru
+   last-changed   : dinesh.bandaru
+   bundle         : com.fusiongbs.sampleappone
+   stringId       : 38451510-5a69-4bad-b948-6b07cd3f6c27
+   owner-objects  : 17\c54ae39c-83e8-4ed0-b907-ff1ae2a18402
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+   locale         : default
+   string-text    : "Hello 2"
+end
+begin localizable string
+   name           : LSGADG1AAP0IDAS88G1WS88G1W6BND
+   timestamp      : 1724134028
+   owner          : dinesh.bandaru
+   last-changed   : dinesh.bandaru
+   bundle         : com.fusiongbs.sampleappone
+   stringId       : 3a361699-696b-4178-9f1b-44b44091c32a
+   owner-objects  : 17\40a378d7-2019-401b-bea0-db72ae219a42
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+   locale         : default
+   string-text    : <p>View with Colors</p>
+end
+begin localizable string
+   name           : LSGADG1AAP0IDAS888XHS888XH7JMC
+   timestamp      : 1724151168
+   owner          : dinesh.bandaru
+   last-changed   : dinesh.bandaru
+   bundle         : com.fusiongbs.sampleappone
+   stringId       : 55bd4543-aa59-4d7d-a9c3-ac4ec055ffb0
+   owner-objects  : 17\0e430f4b-18a6-4202-8b2f-d77dca309de3
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+   locale         : default
+   string-text    : ${view.components.797d3225-3ee3-4ae3-a258-e6818dc12d09.recordInstance.fieldInstances.8.value}
+end
+begin localizable string
+   name           : LSGADG1AAP0IDAS8898GS8898G71OD
+   timestamp      : 1724151102
+   owner          : dinesh.bandaru
+   last-changed   : dinesh.bandaru
+   bundle         : com.fusiongbs.sampleappone
+   stringId       : 63113e7a-f189-474a-9d8b-830fb8461930
+   owner-objects  : 35\0
+   object-prop    : 3\60093\0\90016\4\1\1\90015\2\4\
+   locale         : default
+   string-text    : Assigned
+end
+begin localizable string
+   name           : LSGADG1AAP0IDAS8898GS8898G71OH
+   timestamp      : 1724151102
+   owner          : dinesh.bandaru
+   last-changed   : dinesh.bandaru
+   bundle         : com.fusiongbs.sampleappone
+   stringId       : 6973f9e1-75ab-4b59-a3fd-acec4174108f
+   owner-objects  : 35\0
+   object-prop    : 3\60093\0\90016\4\1\1\90015\2\4\
+   locale         : default
+   string-text    : Not Listening
+end
+begin localizable string
+   name           : LSGADG1AAP0IDAS88PI5S88PI58U65
+   timestamp      : 1724158527
+   owner          : dinesh.bandaru
+   last-changed   : dinesh.bandaru
+   bundle         : com.fusiongbs.sampleappone
+   stringId       : 7a708bc5-bfc7-40bb-90f9-1eb3b3a1800e
+   owner-objects  : 17\0bc05011-5c45-4a8e-a1e5-5fe7f6a5b59b
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+   locale         : default
+   string-text    : New button
+end
+begin localizable string
+   name           : LSGADG1AAP0IDAS889KAS889KA71UH
+   timestamp      : 1724151168
+   owner          : dinesh.bandaru
+   last-changed   : dinesh.bandaru
+   bundle         : com.fusiongbs.sampleappone
+   stringId       : 934d4620-d5b4-4d52-a9f4-d8ed8c261d09
+   owner-objects  : 17\0ba7bf99-032c-4481-b501-086b2d4b0732
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+   locale         : default
+   string-text    : Description
+end
+begin localizable string
+   name           : LSGADG1AAP0IDAS88G20S88G206BOQ
+   timestamp      : 1724134042
+   owner          : dinesh.bandaru
+   last-changed   : dinesh.bandaru
+   bundle         : com.fusiongbs.sampleappone
+   stringId       : 99d98b71-d867-4740-821a-907227aa43a9
+   owner-objects  : 17\IDGADG1AAP0ICAS86SY3S86SY3HS5D
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+   locale         : default
+   string-text    : Home Page
+end
+begin localizable string
    name           : LSGADG1AAP0ICAS86VWMS86VWMIBTN
    timestamp      : 1724073862
    owner          : dinesh.bandaru
@@ -9,4 +141,40 @@ begin localizable string
    object-prop    : 2\90016\4\1\1\90015\2\4\
    locale         : default
    string-text    : <p>My First View</p>
+end
+begin localizable string
+   name           : LSGADG1AAP0IDAS8898GS8898G71OE
+   timestamp      : 1724151102
+   owner          : dinesh.bandaru
+   last-changed   : dinesh.bandaru
+   bundle         : com.fusiongbs.sampleappone
+   stringId       : bc95f409-3f3e-4750-9299-66997aa037a1
+   owner-objects  : 35\0
+   object-prop    : 3\60093\0\90016\4\1\1\90015\2\4\
+   locale         : default
+   string-text    : Fixed
+end
+begin localizable string
+   name           : LSGADG1AAP0IDAS8898GS8898G71OF
+   timestamp      : 1724151102
+   owner          : dinesh.bandaru
+   last-changed   : dinesh.bandaru
+   bundle         : com.fusiongbs.sampleappone
+   stringId       : e2a9ec39-9fe8-4f8e-9d15-99abb15febfc
+   owner-objects  : 35\0
+   object-prop    : 3\60093\0\90016\4\1\1\90015\2\4\
+   locale         : default
+   string-text    : Rejected
+end
+begin localizable string
+   name           : LSGADG1AAP0IDAS8898GS8898G71OC
+   timestamp      : 1724151102
+   owner          : dinesh.bandaru
+   last-changed   : dinesh.bandaru
+   bundle         : com.fusiongbs.sampleappone
+   stringId       : e668b250-45d1-462a-b45d-a98e94d61f97
+   owner-objects  : 35\0
+   object-prop    : 3\60093\0\90016\4\1\1\90015\2\4\
+   locale         : default
+   string-text    : New
 end

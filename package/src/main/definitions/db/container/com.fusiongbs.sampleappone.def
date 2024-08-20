@@ -1,12 +1,12 @@
 begin container
    name           : com.fusiongbs.sampleappone
    type           : 2
-   num-references : 7
-   timestamp      : 1724073862
+   num-references : 16
+   timestamp      : 1724156638
    owner          : com.fusiongbs
-   last-changed   : dinesh.bandaru
+   last-changed   : ARSERVER
    export-version : 12
-   object-prop    : 5\90019\2\10\90016\4\1\1\90002\4\26\com.fusiongbs.sampleappone\90021\4\26\com.fusiongbs.sampleappone\90015\2\4\
+   object-prop    : 5\90019\2\10\90016\4\1\1\90021\4\26\com.fusiongbs.sampleappone\90015\2\4\90002\4\26\com.fusiongbs.sampleappone\
 reference {
    type           : 32839
    datatype       : 1
@@ -41,5 +41,50 @@ reference {
    type           : 16
    datatype       : 1
    value          : 4\37\com.fusiongbs.sampleappone:First view\
+}
+reference {
+   type           : 32839
+   datatype       : 1
+   value          : 2\2\
+}
+reference {
+   type           : 32849
+   datatype       : 1
+   value          : 0\
+}
+reference {
+   type           : 16
+   datatype       : 1
+   value          : 4\41\com.fusiongbs.sampleappone:Testing Action\
+}
+reference {
+   type           : 32839
+   datatype       : 1
+   value          : 2\2\
+}
+reference {
+   type           : 32849
+   datatype       : 1
+   value          : 0\
+}
+reference {
+   type           : 16
+   datatype       : 1
+   value          : 4\51\com.fusiongbs.sampleappone:Testing Sample component\
+}
+reference {
+   type           : 32839
+   datatype       : 1
+   value          : 2\2\
+}
+reference {
+   type           : 32847
+   datatype       : 1
+   value          : 0\
+}
+reference {
+   type           : 14
+   datatype       : 1
+   value          : 4\31\com.fusiongbs.sampleappone:test\
 }
 end
