@@ -4,9 +4,11 @@ import { RxLocalizationService } from '@helix/platform/shared/api';
 import * as defaultApplicationStrings from './i18n/localized-strings.json';
 import { SampleactionActionModule } from './actions/sampleaction/sampleaction-action.module';
 import { SamplecomponentRegistrationModule } from './view-components/samplecomponent/samplecomponent-registration.module';
+import { SamplefieldcomponentRegistrationModule } from './view-components/samplefieldcomponent/samplefieldcomponent-registration.module';
+import { SamplestarcomponentRegistrationModule } from './view-components/samplestarcomponent/samplestarcomponent-registration.module';
 
 @NgModule({
-  imports: [CommonModule, SampleactionActionModule, SamplecomponentRegistrationModule]
+  imports: [CommonModule, SampleactionActionModule, SamplecomponentRegistrationModule, SamplefieldcomponentRegistrationModule, SamplestarcomponentRegistrationModule]
 })
 export class ComFusiongbsSampleapponeModule {
   constructor(private rxLocalizationService: RxLocalizationService) {
