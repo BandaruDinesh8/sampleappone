@@ -1,8 +1,8 @@
 begin container
    name           : com.fusiongbs.sampleappone
    type           : 2
-   num-references : 16
-   timestamp      : 1724156638
+   num-references : 19
+   timestamp      : 1724236025
    owner          : com.fusiongbs
    last-changed   : ARSERVER
    export-version : 12
@@ -86,5 +86,20 @@ reference {
    type           : 14
    datatype       : 1
    value          : 4\31\com.fusiongbs.sampleappone:test\
+}
+reference {
+   type           : 32839
+   datatype       : 1
+   value          : 2\2\
+}
+reference {
+   type           : 32849
+   datatype       : 1
+   value          : 0\
+}
+reference {
+   type           : 16
+   datatype       : 1
+   value          : 4\52\com.fusiongbs.sampleappone:test field view component\
 }
 end

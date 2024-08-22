@@ -1,0 +1,427 @@
+begin view definition
+   name           : com.fusiongbs.sampleappone:test field view component
+   definition     : {
+   definition     :   "version" : null,
+   definition     :   "lastUpdateTime" : 1724228634777,
+   definition     :   "lastChangedBy" : "dinesh.bandaru",
+   definition     :   "owner" : "dinesh.bandaru",
+   definition     :   "name" : "com.fusiongbs.sampleappone:test field view component",
+   definition     :   "tags" : null,
+   definition     :   "description" : null,
+   definition     :   "overlayGroupId" : "1",
+   definition     :   "scope" : "BUNDLE",
+   definition     :   "internal" : false,
+   definition     :   "guid" : "04b4f912-770c-4255-b1de-459693561e1d",
+   definition     :   "layout" : "{\"outlets\":[{\"name\":\"DEFAULT\",\"columns\":[{\"children\":[\"ee9f5724-d882-4c6d-9dd8-064366754e07\",\"0f83c6da-4f24-4eb2-b63e-4d2b445c230c\",\"9dc4c5d8-cb4d-428b-8df3-742acc8fc820\"]}]}]}",
+   definition     :   "inputParams" : [ ],
+   definition     :   "outputParams" : [ ],
+   definition     :   "componentDefinitions" : [ {
+   definition     :     "resourceType" : "com.bmc.arsys.rx.services.view.domain.ContainerViewComponentDefinition",
+   definition     :     "lastUpdateTime" : 1724228634777,
+   definition     :     "lastChangedBy" : "dinesh.bandaru",
+   definition     :     "owner" : "dinesh.bandaru",
+   definition     :     "name" : "ee9f5724-d882-4c6d-9dd8-064366754e07",
+   definition     :     "tags" : null,
+   definition     :     "description" : null,
+   definition     :     "overlayGroupId" : "1",
+   definition     :     "internal" : false,
+   definition     :     "guid" : "ee9f5724-d882-4c6d-9dd8-064366754e07",
+   definition     :     "type" : "rx-record-editor",
+   definition     :     "propertiesByName" : {
+   definition     :       "mode" : "CREATE",
+   definition     :       "availableOnDevices" : "[\"desktop\",\"tablet\",\"mobile\"]",
+   definition     :       "recordDefinitionName" : "IDGADG1AAP0IDAS8898FS8898F71OB",
+   definition     :       "allowEdit" : null
+   definition     :     },
+   definition     :     "permissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 0,
+   definition     :         "type" : "GROUP",
+   definition     :         "name" : "Public"
+   definition     :       },
+   definition     :       "type" : "VISIBLE"
+   definition     :     } ],
+   definition     :     "layout" : "{\"outlets\":[{\"name\":\"DEFAULT\",\"columns\":[{\"children\":[\"53dd0a25-8163-47f2-870d-6f021c30d640\"]}]}]}",
+   definition     :     "componentDefinitions" : [ {
+   definition     :       "resourceType" : "com.bmc.arsys.rx.services.view.domain.ViewComponentDefinition",
+   definition     :       "lastUpdateTime" : 1724228634777,
+   definition     :       "lastChangedBy" : "dinesh.bandaru",
+   definition     :       "owner" : "dinesh.bandaru",
+   definition     :       "name" : "53dd0a25-8163-47f2-870d-6f021c30d640",
+   definition     :       "tags" : null,
+   definition     :       "description" : null,
+   definition     :       "overlayGroupId" : "1",
+   definition     :       "internal" : false,
+   definition     :       "guid" : "53dd0a25-8163-47f2-870d-6f021c30d640",
+   definition     :       "type" : "com-fusiongbs-sampleappone-samplefieldcomponent",
+   definition     :       "propertiesByName" : {
+   definition     :         "availableOnDevices" : "[\"desktop\",\"tablet\",\"mobile\"]",
+   definition     :         "hidden" : "0",
+   definition     :         "disabled" : "0",
+   definition     :         "label" : "1d060049-2772-4a57-885c-874bc9e1a981",
+   definition     :         "message" : "\"Hi\"",
+   definition     :         "value" : null,
+   definition     :         "fieldId" : "8"
+   definition     :       },
+   definition     :       "permissions" : [ {
+   definition     :         "ownerId" : {
+   definition     :           "value" : 0,
+   definition     :           "type" : "GROUP",
+   definition     :           "name" : "Public"
+   definition     :         },
+   definition     :         "type" : "VISIBLE"
+   definition     :       } ]
+   definition     :     } ]
+   definition     :   }, {
+   definition     :     "resourceType" : "com.bmc.arsys.rx.services.view.domain.ContainerViewComponentDefinition",
+   definition     :     "lastUpdateTime" : 1724228634777,
+   definition     :     "lastChangedBy" : "dinesh.bandaru",
+   definition     :     "owner" : "dinesh.bandaru",
+   definition     :     "name" : "0f83c6da-4f24-4eb2-b63e-4d2b445c230c",
+   definition     :     "tags" : null,
+   definition     :     "description" : null,
+   definition     :     "overlayGroupId" : "1",
+   definition     :     "internal" : false,
+   definition     :     "guid" : "0f83c6da-4f24-4eb2-b63e-4d2b445c230c",
+   definition     :     "type" : "rx-action-button",
+   definition     :     "propertiesByName" : {
+   definition     :       "availableOnDevices" : "[\"desktop\",\"tablet\",\"mobile\"]",
+   definition     :       "hidden" : "0",
+   definition     :       "recordDefinitionName" : null,
+   definition     :       "icon" : null,
+   definition     :       "label" : "1688a2ee-5704-4119-a746-082fd73eb7eb",
+   definition     :       "displayMode" : "standard",
+   definition     :       "iconAlignment" : "left",
+   definition     :       "size" : "default",
+   definition     :       "recordInstance" : null,
+   definition     :       "style" : "primary",
+   definition     :       "disabled" : "0",
+   definition     :       "styles" : null,
+   definition     :       "fieldId" : null
+   definition     :     },
+   definition     :     "permissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 0,
+   definition     :         "type" : "GROUP",
+   definition     :         "name" : "Public"
+   definition     :       },
+   definition     :       "type" : "VISIBLE"
+   definition     :     } ],
+   definition     :     "layout" : "{\"outlets\":[{\"name\":\"DEFAULT\",\"columns\":[{\"children\":[]}]}]}",
+   definition     :     "componentDefinitions" : [ {
+   definition     :       "resourceType" : "com.bmc.arsys.rx.services.view.domain.ContainerViewComponentDefinition",
+   definition     :       "lastUpdateTime" : 1724228634777,
+   definition     :       "lastChangedBy" : "dinesh.bandaru",
+   definition     :       "owner" : "dinesh.bandaru",
+   definition     :       "name" : "06c21e0e-175f-4466-9217-80ddcb46f582",
+   definition     :       "tags" : null,
+   definition     :       "description" : null,
+   definition     :       "overlayGroupId" : "1",
+   definition     :       "internal" : false,
+   definition     :       "guid" : "06c21e0e-175f-4466-9217-80ddcb46f582",
+   definition     :       "type" : "rx-action",
+   definition     :       "propertiesByName" : {
+   definition     :         "$condition$" : null,
+   definition     :         "viewApi" : "${view.api}",
+   definition     :         "name" : "rxSaveAction",
+   definition     :         "index" : "0",
+   definition     :         "targetApi" : "${view.components.ee9f5724-d882-4c6d-9dd8-064366754e07.api}",
+   definition     :         "closeAfterSave" : null
+   definition     :       },
+   definition     :       "permissions" : [ {
+   definition     :         "ownerId" : {
+   definition     :           "value" : 0,
+   definition     :           "type" : "GROUP",
+   definition     :           "name" : "Public"
+   definition     :         },
+   definition     :         "type" : "VISIBLE"
+   definition     :       } ],
+   definition     :       "layout" : null,
+   definition     :       "componentDefinitions" : [ ]
+   definition     :     }, {
+   definition     :       "resourceType" : "com.bmc.arsys.rx.services.view.domain.ContainerViewComponentDefinition",
+   definition     :       "lastUpdateTime" : 1724228634777,
+   definition     :       "lastChangedBy" : "dinesh.bandaru",
+   definition     :       "owner" : "dinesh.bandaru",
+   definition     :       "name" : "e2e6af3f-998b-449b-9187-5acb7470c978",
+   definition     :       "tags" : null,
+   definition     :       "description" : null,
+   definition     :       "overlayGroupId" : "1",
+   definition     :       "internal" : false,
+   definition     :       "guid" : "e2e6af3f-998b-449b-9187-5acb7470c978",
+   definition     :       "type" : "rx-action",
+   definition     :       "propertiesByName" : {
+   definition     :         "name" : "rxRefreshAction",
+   definition     :         "$condition$" : null,
+   definition     :         "index" : "1",
+   definition     :         "component" : "${view.components.7e56cef0-ac55-43ec-8755-29f1a6d4b0f1.api}"
+   definition     :       },
+   definition     :       "permissions" : [ {
+   definition     :         "ownerId" : {
+   definition     :           "value" : 0,
+   definition     :           "type" : "GROUP",
+   definition     :           "name" : "Public"
+   definition     :         },
+   definition     :         "type" : "VISIBLE"
+   definition     :       } ],
+   definition     :       "layout" : null,
+   definition     :       "componentDefinitions" : [ ]
+   definition     :     } ]
+   definition     :   }, {
+   definition     :     "resourceType" : "com.bmc.arsys.rx.services.view.domain.ContainerViewComponentDefinition",
+   definition     :     "lastUpdateTime" : 1724228634777,
+   definition     :     "lastChangedBy" : "dinesh.bandaru",
+   definition     :     "owner" : "dinesh.bandaru",
+   definition     :     "name" : "9dc4c5d8-cb4d-428b-8df3-742acc8fc820",
+   definition     :     "tags" : null,
+   definition     :     "description" : null,
+   definition     :     "overlayGroupId" : "1",
+   definition     :     "internal" : false,
+   definition     :     "guid" : "9dc4c5d8-cb4d-428b-8df3-742acc8fc820",
+   definition     :     "type" : "rx-container",
+   definition     :     "propertiesByName" : {
+   definition     :       "availableOnDevices" : "[\"desktop\",\"tablet\",\"mobile\"]",
+   definition     :       "rowWrap" : "sm",
+   definition     :       "columnCount" : "2",
+   definition     :       "hidden" : "0"
+   definition     :     },
+   definition     :     "permissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 0,
+   definition     :         "type" : "GROUP",
+   definition     :         "name" : "Public"
+   definition     :       },
+   definition     :       "type" : "VISIBLE"
+   definition     :     } ],
+   definition     :     "layout" : "{\"outlets\":[{\"name\":\"DEFAULT\",\"columns\":[{\"children\":[\"7e56cef0-ac55-43ec-8755-29f1a6d4b0f1\"],\"span\":6},{\"children\":[\"fa288253-a38b-46c9-a3a8-baf7b4884a24\"],\"span\":6}]}]}",
+   definition     :     "componentDefinitions" : [ {
+   definition     :       "resourceType" : "com.bmc.arsys.rx.services.view.domain.ContainerViewComponentDefinition",
+   definition     :       "lastUpdateTime" : 1724228634777,
+   definition     :       "lastChangedBy" : "dinesh.bandaru",
+   definition     :       "owner" : "dinesh.bandaru",
+   definition     :       "name" : "7e56cef0-ac55-43ec-8755-29f1a6d4b0f1",
+   definition     :       "tags" : null,
+   definition     :       "description" : null,
+   definition     :       "overlayGroupId" : "1",
+   definition     :       "internal" : false,
+   definition     :       "guid" : "7e56cef0-ac55-43ec-8755-29f1a6d4b0f1",
+   definition     :       "type" : "rx-record-grid",
+   definition     :       "propertiesByName" : {
+   definition     :         "associatedRecordNodeSide" : null,
+   definition     :         "requiredFilters" : "0",
+   definition     :         "striped" : "false",
+   definition     :         "availableOnDevices" : "[\"desktop\",\"tablet\",\"mobile\"]",
+   definition     :         "showDataForAllLocales" : "false",
+   definition     :         "defaultFilterPreset" : null,
+   definition     :         "expandable" : "false",
+   definition     :         "recordDefinitionName" : "IDGADG1AAP0IDAS8898FS8898F71OB",
+   definition     :         "enableFiltering" : "true",
+   definition     :         "enableRowSelection" : "multiple",
+   definition     :         "viewPresetSelector" : null,
+   definition     :         "bordered" : "true",
+   definition     :         "filters" : null,
+   definition     :         "associatedRecordId" : null,
+   definition     :         "getDataForHiddenColumns" : "true",
+   definition     :         "associationDefinitionName" : null,
+   definition     :         "cardLayoutWidth" : null,
+   definition     :         "filterExpression" : null,
+   definition     :         "styles" : null,
+   definition     :         "associatedRoleName" : null,
+   definition     :         "enableFilterPresets" : "true"
+   definition     :       },
+   definition     :       "permissions" : [ {
+   definition     :         "ownerId" : {
+   definition     :           "value" : 0,
+   definition     :           "type" : "GROUP",
+   definition     :           "name" : "Public"
+   definition     :         },
+   definition     :         "type" : "VISIBLE"
+   definition     :       } ],
+   definition     :       "layout" : "{\"outlets\":[{\"name\":\"DEFAULT\",\"columns\":[{\"children\":[]}]},{\"name\":\"ROW_ACTIONS\",\"columns\":[{\"children\":[]}]}]}",
+   definition     :       "componentDefinitions" : [ {
+   definition     :         "resourceType" : "com.bmc.arsys.rx.services.view.domain.ContainerViewComponentDefinition",
+   definition     :         "lastUpdateTime" : 1724228634777,
+   definition     :         "lastChangedBy" : "dinesh.bandaru",
+   definition     :         "owner" : "dinesh.bandaru",
+   definition     :         "name" : "b3b74694-673c-4695-bd84-8d9ce8dc719b",
+   definition     :         "tags" : null,
+   definition     :         "description" : null,
+   definition     :         "overlayGroupId" : "1",
+   definition     :         "internal" : false,
+   definition     :         "guid" : "b3b74694-673c-4695-bd84-8d9ce8dc719b",
+   definition     :         "type" : "rx-record-grid-column",
+   definition     :         "propertiesByName" : {
+   definition     :           "filterable" : "true",
+   definition     :           "visible" : "true",
+   definition     :           "index" : "0",
+   definition     :           "sortable" : "true",
+   definition     :           "title" : "dc6b8c9a-9e07-4d42-a563-c785613d8b36",
+   definition     :           "searchable" : "true",
+   definition     :           "cellDisplayProperties" : null,
+   definition     :           "width" : null,
+   definition     :           "alignment" : "false",
+   definition     :           "filterType" : null,
+   definition     :           "wrapText" : "false",
+   definition     :           "additionalQueryCriteria" : null,
+   definition     :           "fieldId" : "8",
+   definition     :           "typeaheadKeystrokeCount" : "1"
+   definition     :         },
+   definition     :         "permissions" : [ {
+   definition     :           "ownerId" : {
+   definition     :             "value" : 0,
+   definition     :             "type" : "GROUP",
+   definition     :             "name" : "Public"
+   definition     :           },
+   definition     :           "type" : "VISIBLE"
+   definition     :         } ],
+   definition     :         "layout" : null,
+   definition     :         "componentDefinitions" : [ ]
+   definition     :       }, {
+   definition     :         "resourceType" : "com.bmc.arsys.rx.services.view.domain.ContainerViewComponentDefinition",
+   definition     :         "lastUpdateTime" : 1724228634777,
+   definition     :         "lastChangedBy" : "dinesh.bandaru",
+   definition     :         "owner" : "dinesh.bandaru",
+   definition     :         "name" : "177736f4-bc85-469b-bf54-6f0c06eaa862",
+   definition     :         "tags" : null,
+   definition     :         "description" : null,
+   definition     :         "overlayGroupId" : "1",
+   definition     :         "internal" : false,
+   definition     :         "guid" : "177736f4-bc85-469b-bf54-6f0c06eaa862",
+   definition     :         "type" : "rx-record-grid-column",
+   definition     :         "propertiesByName" : {
+   definition     :           "filterable" : "true",
+   definition     :           "visible" : "false",
+   definition     :           "index" : "1",
+   definition     :           "sortable" : "true",
+   definition     :           "title" : "c5738c47-e783-4e52-8622-e2e4f616debc",
+   definition     :           "searchable" : "true",
+   definition     :           "cellDisplayProperties" : null,
+   definition     :           "width" : null,
+   definition     :           "alignment" : "false",
+   definition     :           "filterType" : null,
+   definition     :           "wrapText" : "false",
+   definition     :           "additionalQueryCriteria" : null,
+   definition     :           "fieldId" : "379",
+   definition     :           "typeaheadKeystrokeCount" : "1"
+   definition     :         },
+   definition     :         "permissions" : [ {
+   definition     :           "ownerId" : {
+   definition     :             "value" : 0,
+   definition     :             "type" : "GROUP",
+   definition     :             "name" : "Public"
+   definition     :           },
+   definition     :           "type" : "VISIBLE"
+   definition     :         } ],
+   definition     :         "layout" : null,
+   definition     :         "componentDefinitions" : [ ]
+   definition     :       } ]
+   definition     :     }, {
+   definition     :       "resourceType" : "com.bmc.arsys.rx.services.view.domain.ContainerViewComponentDefinition",
+   definition     :       "lastUpdateTime" : 1724228634777,
+   definition     :       "lastChangedBy" : "dinesh.bandaru",
+   definition     :       "owner" : "dinesh.bandaru",
+   definition     :       "name" : "this is for edit",
+   definition     :       "tags" : null,
+   definition     :       "description" : null,
+   definition     :       "overlayGroupId" : "1",
+   definition     :       "internal" : false,
+   definition     :       "guid" : "fa288253-a38b-46c9-a3a8-baf7b4884a24",
+   definition     :       "type" : "rx-record-editor",
+   definition     :       "propertiesByName" : {
+   definition     :         "mode" : "EDIT",
+   definition     :         "recordInstanceId" : "${view.components.7e56cef0-ac55-43ec-8755-29f1a6d4b0f1.firstSelectedRow.379}",
+   definition     :         "availableOnDevices" : "[\"desktop\",\"tablet\",\"mobile\"]",
+   definition     :         "defaultState" : "READ",
+   definition     :         "recordDefinitionName" : "IDGADG1AAP0IDAS8898FS8898F71OB",
+   definition     :         "allowEdit" : "1"
+   definition     :       },
+   definition     :       "permissions" : [ {
+   definition     :         "ownerId" : {
+   definition     :           "value" : 0,
+   definition     :           "type" : "GROUP",
+   definition     :           "name" : "Public"
+   definition     :         },
+   definition     :         "type" : "VISIBLE"
+   definition     :       } ],
+   definition     :       "layout" : "{\"outlets\":[{\"name\":\"DEFAULT\",\"columns\":[{\"children\":[\"865faf0c-ae33-4df9-92a9-0a7e0e3002b9\",\"d58cc48e-312a-4d63-9250-117401bf8d17\"]}]}]}",
+   definition     :       "componentDefinitions" : [ {
+   definition     :         "resourceType" : "com.bmc.arsys.rx.services.view.domain.ViewComponentDefinition",
+   definition     :         "lastUpdateTime" : 1724228634777,
+   definition     :         "lastChangedBy" : "dinesh.bandaru",
+   definition     :         "owner" : "dinesh.bandaru",
+   definition     :         "name" : "865faf0c-ae33-4df9-92a9-0a7e0e3002b9",
+   definition     :         "tags" : null,
+   definition     :         "description" : null,
+   definition     :         "overlayGroupId" : "1",
+   definition     :         "internal" : false,
+   definition     :         "guid" : "865faf0c-ae33-4df9-92a9-0a7e0e3002b9",
+   definition     :         "type" : "rx-character-field",
+   definition     :         "propertiesByName" : {
+   definition     :           "availableOnDevices" : "[\"desktop\",\"tablet\",\"mobile\"]",
+   definition     :           "hidden" : "0",
+   definition     :           "disabled" : "0",
+   definition     :           "enableMultiSelection" : null,
+   definition     :           "label" : "215a282d-4194-40f1-a7e6-ad7fe9ba7340",
+   definition     :           "value" : null,
+   definition     :           "additionalQueryCriteria" : null,
+   definition     :           "fieldId" : "8"
+   definition     :         },
+   definition     :         "permissions" : [ {
+   definition     :           "ownerId" : {
+   definition     :             "value" : 0,
+   definition     :             "type" : "GROUP",
+   definition     :             "name" : "Public"
+   definition     :           },
+   definition     :           "type" : "VISIBLE"
+   definition     :         } ]
+   definition     :       }, {
+   definition     :         "resourceType" : "com.bmc.arsys.rx.services.view.domain.ViewComponentDefinition",
+   definition     :         "lastUpdateTime" : 1724228634777,
+   definition     :         "lastChangedBy" : "dinesh.bandaru",
+   definition     :         "owner" : "dinesh.bandaru",
+   definition     :         "name" : "d58cc48e-312a-4d63-9250-117401bf8d17",
+   definition     :         "tags" : null,
+   definition     :         "description" : null,
+   definition     :         "overlayGroupId" : "1",
+   definition     :         "internal" : false,
+   definition     :         "guid" : "d58cc48e-312a-4d63-9250-117401bf8d17",
+   definition     :         "type" : "com-fusiongbs-sampleappone-samplefieldcomponent",
+   definition     :         "propertiesByName" : {
+   definition     :           "availableOnDevices" : "[\"desktop\",\"tablet\",\"mobile\"]",
+   definition     :           "hidden" : "0",
+   definition     :           "disabled" : "0",
+   definition     :           "label" : "8c6301c0-3067-4bd6-9fd9-fda4ba84c206",
+   definition     :           "message" : "\"Hello\"",
+   definition     :           "value" : null,
+   definition     :           "fieldId" : "8"
+   definition     :         },
+   definition     :         "permissions" : [ {
+   definition     :           "ownerId" : {
+   definition     :             "value" : 0,
+   definition     :             "type" : "GROUP",
+   definition     :             "name" : "Public"
+   definition     :           },
+   definition     :           "type" : "VISIBLE"
+   definition     :         } ]
+   definition     :       } ]
+   definition     :     } ]
+   definition     :   } ],
+   definition     :   "permissions" : [ {
+   definition     :     "ownerId" : {
+   definition     :       "value" : 0,
+   definition     :       "type" : "GROUP",
+   definition     :       "name" : "Public"
+   definition     :     },
+   definition     :     "type" : "VISIBLE"
+   definition     :   } ],
+   definition     :   "localizableStringsByComponentId" : null,
+   definition     :   "overlayDescriptor" : {
+   definition     :     "parentOverlayGroupId" : null
+   definition     :   },
+   definition     :   "allowOverlay" : false,
+   definition     :   "type" : "REGULAR",
+   definition     :   "styles" : null,
+   definition     :   "targetViewDefinitionName" : null,
+   definition     :   "targetExtensionContainerGuid" : null
+   definition     : }
+end

@@ -2,7 +2,7 @@ begin view definition
    name           : com.fusiongbs.sampleappone:BMC Modern Shell
    definition     : {
    definition     :   "version" : null,
-   definition     :   "lastUpdateTime" : 1724134042886,
+   definition     :   "lastUpdateTime" : 1724134042000,
    definition     :   "lastChangedBy" : "dinesh.bandaru",
    definition     :   "owner" : "dinesh.bandaru",
    definition     :   "name" : "com.fusiongbs.sampleappone:BMC Modern Shell",
@@ -17,7 +17,7 @@ begin view definition
    definition     :   "outputParams" : [ ],
    definition     :   "componentDefinitions" : [ {
    definition     :     "resourceType" : "com.bmc.arsys.rx.services.view.domain.ContainerViewComponentDefinition",
-   definition     :     "lastUpdateTime" : 1724134042886,
+   definition     :     "lastUpdateTime" : 1724134042000,
    definition     :     "lastChangedBy" : "dinesh.bandaru",
    definition     :     "owner" : "dinesh.bandaru",
    definition     :     "name" : "IDGADG1AAP0ICAS86SY3S86SY3HS5E",
@@ -44,31 +44,8 @@ begin view definition
    definition     :     } ],
    definition     :     "layout" : "{\"outlets\":[{\"name\":\"DEFAULT\",\"columns\":[{\"children\":[\"IDGADG1AAP0ICAS86SY3S86SY3HS5D\",\"914bf587-a455-4298-9be3-35c997a53530\"],\"span\":null}]},{\"name\":\"actions\",\"columns\":[{\"children\":[]}]}]}",
    definition     :     "componentDefinitions" : [ {
-   definition     :       "resourceType" : "com.bmc.arsys.rx.services.view.domain.ViewComponentDefinition",
-   definition     :       "lastUpdateTime" : 1724134042886,
-   definition     :       "lastChangedBy" : "dinesh.bandaru",
-   definition     :       "owner" : "dinesh.bandaru",
-   definition     :       "name" : "IDGADG1AAP0ICAS86SY3S86SY3HS5D",
-   definition     :       "tags" : null,
-   definition     :       "description" : null,
-   definition     :       "overlayGroupId" : "1",
-   definition     :       "internal" : false,
-   definition     :       "guid" : "IDGADG1AAP0ICAS86SY3S86SY3HS5D",
-   definition     :       "type" : "rx-shell-menu-item",
-   definition     :       "propertiesByName" : {
-   definition     :         "menuItemIcon" : null,
-   definition     :         "hidden" : "false",
-   definition     :         "presentation.launchBehavior" : "sameWindow",
-   definition     :         "menuItemName" : "99d98b71-d867-4740-821a-907227aa43a9",
-   definition     :         "presentation.type" : "fullWidth",
-   definition     :         "styles" : null,
-   definition     :         "viewDefinitionName" : "8fede968-1657-47bb-a5be-31858f8bbbfb",
-   definition     :         "actionName" : "rxShellNavigateToViewAction"
-   definition     :       },
-   definition     :       "permissions" : [ ]
-   definition     :     }, {
    definition     :       "resourceType" : "com.bmc.arsys.rx.services.view.domain.ContainerViewComponentDefinition",
-   definition     :       "lastUpdateTime" : 1724134042886,
+   definition     :       "lastUpdateTime" : 1724134042000,
    definition     :       "lastChangedBy" : "dinesh.bandaru",
    definition     :       "owner" : "dinesh.bandaru",
    definition     :       "name" : "914bf587-a455-4298-9be3-35c997a53530",
@@ -91,6 +68,29 @@ begin view definition
    definition     :       } ],
    definition     :       "layout" : "{\"outlets\":[{\"name\":\"DEFAULT\",\"columns\":[{\"children\":[]}]}]}",
    definition     :       "componentDefinitions" : [ ]
+   definition     :     }, {
+   definition     :       "resourceType" : "com.bmc.arsys.rx.services.view.domain.ViewComponentDefinition",
+   definition     :       "lastUpdateTime" : 1724134042000,
+   definition     :       "lastChangedBy" : "dinesh.bandaru",
+   definition     :       "owner" : "dinesh.bandaru",
+   definition     :       "name" : "IDGADG1AAP0ICAS86SY3S86SY3HS5D",
+   definition     :       "tags" : null,
+   definition     :       "description" : null,
+   definition     :       "overlayGroupId" : "1",
+   definition     :       "internal" : false,
+   definition     :       "guid" : "IDGADG1AAP0ICAS86SY3S86SY3HS5D",
+   definition     :       "type" : "rx-shell-menu-item",
+   definition     :       "propertiesByName" : {
+   definition     :         "menuItemIcon" : null,
+   definition     :         "hidden" : "false",
+   definition     :         "presentation.launchBehavior" : "sameWindow",
+   definition     :         "menuItemName" : "99d98b71-d867-4740-821a-907227aa43a9",
+   definition     :         "presentation.type" : "fullWidth",
+   definition     :         "styles" : null,
+   definition     :         "viewDefinitionName" : "8fede968-1657-47bb-a5be-31858f8bbbfb",
+   definition     :         "actionName" : "rxShellNavigateToViewAction"
+   definition     :       },
+   definition     :       "permissions" : [ ]
    definition     :     } ]
    definition     :   } ],
    definition     :   "permissions" : [ {

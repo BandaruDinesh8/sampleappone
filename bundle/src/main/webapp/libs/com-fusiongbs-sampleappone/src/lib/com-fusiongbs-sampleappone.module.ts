@@ -6,9 +6,11 @@ import { SampleactionActionModule } from './actions/sampleaction/sampleaction-ac
 import { SamplecomponentRegistrationModule } from './view-components/samplecomponent/samplecomponent-registration.module';
 import { SamplefieldcomponentRegistrationModule } from './view-components/samplefieldcomponent/samplefieldcomponent-registration.module';
 import { SamplestarcomponentRegistrationModule } from './view-components/samplestarcomponent/samplestarcomponent-registration.module';
+import { SamplecaptchaRegistrationModule } from './view-components/samplecaptcha/samplecaptcha-registration.module';
+import { SamplepictureRegistrationModule } from './view-components/samplepicture/samplepicture-registration.module';
 
 @NgModule({
-  imports: [CommonModule, SampleactionActionModule, SamplecomponentRegistrationModule, SamplefieldcomponentRegistrationModule, SamplestarcomponentRegistrationModule]
+  imports: [CommonModule, SampleactionActionModule, SamplecomponentRegistrationModule, SamplefieldcomponentRegistrationModule, SamplestarcomponentRegistrationModule, SamplecaptchaRegistrationModule, SamplepictureRegistrationModule]
 })
 export class ComFusiongbsSampleapponeModule {
   constructor(private rxLocalizationService: RxLocalizationService) {

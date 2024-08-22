@@ -13,4 +13,10 @@ import { SamplestarcomponentDesignModel } from './samplestarcomponent-design.mod
 export class SamplestarcomponentDesignComponent {
   @Input()
   model: SamplestarcomponentDesignModel;
+
+  starValue;
+  
+  onRateChange(value:number): void {
+    console.log(value);
+  }
 }

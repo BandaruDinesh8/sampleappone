@@ -3,8 +3,11 @@ import { RxViewComponentRegistryService, ViewComponentPropertyType } from '@heli
 import { SamplestarcomponentComponent } from './runtime/samplestarcomponent.component';
 import { SamplestarcomponentDesignComponent } from './design/samplestarcomponent-design.component';
 import { SamplestarcomponentDesignModel } from './design/samplestarcomponent-design.model';
+import { AdaptRxRatingModule } from '@bmc-ux/adapt-angular';
 
-@NgModule()
+@NgModule({
+  imports:[AdaptRxRatingModule]
+})
 export class SamplestarcomponentRegistrationModule {
   constructor(rxViewComponentRegistryService: RxViewComponentRegistryService) {
     rxViewComponentRegistryService.register({

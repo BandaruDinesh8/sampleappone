@@ -1,1 +1,8 @@
 <span class="d-icon-wall"></span>
+
+<adapt-rx-rating
+[label]="'Here is a label"
+(onRateChange)="onRateChange($event)"
+[(ngModel)]="starValue"
+></adapt-rx-rating>
+

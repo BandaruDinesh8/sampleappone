@@ -1,4 +1,16 @@
 begin localizable string
+   name           : LSGADG1AAP0IEAS8KA9PS8KA9PRZHL
+   timestamp      : 1724219845
+   owner          : dinesh.bandaru
+   last-changed   : dinesh.bandaru
+   bundle         : com.fusiongbs.sampleappone
+   stringId       : 1688a2ee-5704-4119-a746-082fd73eb7eb
+   owner-objects  : 17\0f83c6da-4f24-4eb2-b63e-4d2b445c230c
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+   locale         : default
+   string-text    : Save
+end
+begin localizable string
    name           : LSGADG1AAP0IDAS8898GS8898G71OI
    timestamp      : 1724151102
    owner          : dinesh.bandaru
@@ -11,6 +23,18 @@ begin localizable string
    string-text    : Listening
 end
 begin localizable string
+   name           : LSGADG1AAP0IEAS8KA9PS8KA9PRZHO
+   timestamp      : 1724219845
+   owner          : dinesh.bandaru
+   last-changed   : dinesh.bandaru
+   bundle         : com.fusiongbs.sampleappone
+   stringId       : 1d060049-2772-4a57-885c-874bc9e1a981
+   owner-objects  : 17\53dd0a25-8163-47f2-870d-6f021c30d640
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+   locale         : default
+   string-text    : Description
+end
+begin localizable string
    name           : LSGADG1AAP0IDAS88II8S88II86IXP
    timestamp      : 1724136498
    owner          : dinesh.bandaru
@@ -21,6 +45,18 @@ begin localizable string
    object-prop    : 2\90016\4\1\1\90015\2\4\
    locale         : default
    string-text    : Doing something
+end
+begin localizable string
+   name           : LSGADG1AAP0IEAS8KGEVS8KGEVVB7F
+   timestamp      : 1724227087
+   owner          : dinesh.bandaru
+   last-changed   : dinesh.bandaru
+   bundle         : com.fusiongbs.sampleappone
+   stringId       : 215a282d-4194-40f1-a7e6-ad7fe9ba7340
+   owner-objects  : 17\865faf0c-ae33-4df9-92a9-0a7e0e3002b9
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+   locale         : default
+   string-text    : Description
 end
 begin localizable string
    name           : LSGADG1AAP0IDAS8898GS8898G71OG
@@ -107,6 +143,18 @@ begin localizable string
    string-text    : New button
 end
 begin localizable string
+   name           : LSGADG1AAP0IEAS8KGEVS8KGEVVB7E
+   timestamp      : 1724227087
+   owner          : dinesh.bandaru
+   last-changed   : dinesh.bandaru
+   bundle         : com.fusiongbs.sampleappone
+   stringId       : 8c6301c0-3067-4bd6-9fd9-fda4ba84c206
+   owner-objects  : 17\d58cc48e-312a-4d63-9250-117401bf8d17
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+   locale         : default
+   string-text    : Description
+end
+begin localizable string
    name           : LSGADG1AAP0IDAS889KAS889KA71UH
    timestamp      : 1724151168
    owner          : dinesh.bandaru
@@ -153,6 +201,42 @@ begin localizable string
    object-prop    : 3\60093\0\90016\4\1\1\90015\2\4\
    locale         : default
    string-text    : Fixed
+end
+begin localizable string
+   name           : LSGADG1AAP0IEAS8KA9PS8KA9PRZHK
+   timestamp      : 1724219845
+   owner          : dinesh.bandaru
+   last-changed   : dinesh.bandaru
+   bundle         : com.fusiongbs.sampleappone
+   stringId       : c5738c47-e783-4e52-8622-e2e4f616debc
+   owner-objects  : 17\177736f4-bc85-469b-bf54-6f0c06eaa862
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+   locale         : default
+   string-text    : ID
+end
+begin localizable string
+   name           : LSGADG1AAP0IEAS8KA9PS8KA9PRZHN
+   timestamp      : 1724219845
+   owner          : dinesh.bandaru
+   last-changed   : dinesh.bandaru
+   bundle         : com.fusiongbs.sampleappone
+   stringId       : db04ec80-dfc3-4cd8-a3e3-dfb71d01f7c2
+   owner-objects  : 17\063edde2-4fea-4ea6-a195-883b03406920
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+   locale         : default
+   string-text    : Description
+end
+begin localizable string
+   name           : LSGADG1AAP0IEAS8KA9PS8KA9PRZHM
+   timestamp      : 1724219845
+   owner          : dinesh.bandaru
+   last-changed   : dinesh.bandaru
+   bundle         : com.fusiongbs.sampleappone
+   stringId       : dc6b8c9a-9e07-4d42-a563-c785613d8b36
+   owner-objects  : 17\b3b74694-673c-4695-bd84-8d9ce8dc719b
+   object-prop    : 2\90016\4\1\1\90015\2\4\
+   locale         : default
+   string-text    : Description
 end
 begin localizable string
    name           : LSGADG1AAP0IDAS8898GS8898G71OF

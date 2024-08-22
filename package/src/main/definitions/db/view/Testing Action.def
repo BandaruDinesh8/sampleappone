@@ -2,7 +2,7 @@ begin view definition
    name           : com.fusiongbs.sampleappone:Testing Action
    definition     : {
    definition     :   "version" : null,
-   definition     :   "lastUpdateTime" : 1724136594864,
+   definition     :   "lastUpdateTime" : 1724136594000,
    definition     :   "lastChangedBy" : "dinesh.bandaru",
    definition     :   "owner" : "dinesh.bandaru",
    definition     :   "name" : "com.fusiongbs.sampleappone:Testing Action",
@@ -17,7 +17,7 @@ begin view definition
    definition     :   "outputParams" : [ ],
    definition     :   "componentDefinitions" : [ {
    definition     :     "resourceType" : "com.bmc.arsys.rx.services.view.domain.ContainerViewComponentDefinition",
-   definition     :     "lastUpdateTime" : 1724136594864,
+   definition     :     "lastUpdateTime" : 1724136594000,
    definition     :     "lastChangedBy" : "dinesh.bandaru",
    definition     :     "owner" : "dinesh.bandaru",
    definition     :     "name" : "8bd698aa-8a47-4aae-aaa4-0fc4a17d686c",
@@ -53,7 +53,7 @@ begin view definition
    definition     :     "layout" : "{\"outlets\":[{\"name\":\"DEFAULT\",\"columns\":[{\"children\":[]}]}]}",
    definition     :     "componentDefinitions" : [ {
    definition     :       "resourceType" : "com.bmc.arsys.rx.services.view.domain.ContainerViewComponentDefinition",
-   definition     :       "lastUpdateTime" : 1724136594864,
+   definition     :       "lastUpdateTime" : 1724136594000,
    definition     :       "lastChangedBy" : "dinesh.bandaru",
    definition     :       "owner" : "dinesh.bandaru",
    definition     :       "name" : "df0709e2-18cc-4a8f-9062-f40582d16ec6",

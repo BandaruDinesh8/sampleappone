@@ -2,7 +2,7 @@ begin view definition
    name           : com.fusiongbs.sampleappone:Testing Sample component
    definition     : {
    definition     :   "version" : null,
-   definition     :   "lastUpdateTime" : 1724158634368,
+   definition     :   "lastUpdateTime" : 1724158634000,
    definition     :   "lastChangedBy" : "dinesh.bandaru",
    definition     :   "owner" : "dinesh.bandaru",
    definition     :   "name" : "com.fusiongbs.sampleappone:Testing Sample component",
@@ -16,8 +16,34 @@ begin view definition
    definition     :   "inputParams" : [ ],
    definition     :   "outputParams" : [ ],
    definition     :   "componentDefinitions" : [ {
+   definition     :     "resourceType" : "com.bmc.arsys.rx.services.view.domain.ViewComponentDefinition",
+   definition     :     "lastUpdateTime" : 1724158634000,
+   definition     :     "lastChangedBy" : "dinesh.bandaru",
+   definition     :     "owner" : "dinesh.bandaru",
+   definition     :     "name" : "T1",
+   definition     :     "tags" : null,
+   definition     :     "description" : null,
+   definition     :     "overlayGroupId" : "1",
+   definition     :     "internal" : false,
+   definition     :     "guid" : "0e430f4b-18a6-4202-8b2f-d77dca309de3",
+   definition     :     "type" : "com-fusiongbs-sampleappone-samplecomponent",
+   definition     :     "propertiesByName" : {
+   definition     :       "styles" : null,
+   definition     :       "hidden" : "0",
+   definition     :       "message" : "55bd4543-aa59-4d7d-a9c3-ac4ec055ffb0",
+   definition     :       "messageType" : "\"foobars\""
+   definition     :     },
+   definition     :     "permissions" : [ {
+   definition     :       "ownerId" : {
+   definition     :         "value" : 0,
+   definition     :         "type" : "GROUP",
+   definition     :         "name" : "Public"
+   definition     :       },
+   definition     :       "type" : "VISIBLE"
+   definition     :     } ]
+   definition     :   }, {
    definition     :     "resourceType" : "com.bmc.arsys.rx.services.view.domain.ContainerViewComponentDefinition",
-   definition     :     "lastUpdateTime" : 1724158634368,
+   definition     :     "lastUpdateTime" : 1724158634000,
    definition     :     "lastChangedBy" : "dinesh.bandaru",
    definition     :     "owner" : "dinesh.bandaru",
    definition     :     "name" : "797d3225-3ee3-4ae3-a258-e6818dc12d09",
@@ -44,7 +70,7 @@ begin view definition
    definition     :     "layout" : "{\"outlets\":[{\"name\":\"DEFAULT\",\"columns\":[{\"children\":[\"0ba7bf99-032c-4481-b501-086b2d4b0732\"]}]}]}",
    definition     :     "componentDefinitions" : [ {
    definition     :       "resourceType" : "com.bmc.arsys.rx.services.view.domain.ViewComponentDefinition",
-   definition     :       "lastUpdateTime" : 1724158634368,
+   definition     :       "lastUpdateTime" : 1724158634000,
    definition     :       "lastChangedBy" : "dinesh.bandaru",
    definition     :       "owner" : "dinesh.bandaru",
    definition     :       "name" : "0ba7bf99-032c-4481-b501-086b2d4b0732",
@@ -75,7 +101,7 @@ begin view definition
    definition     :     } ]
    definition     :   }, {
    definition     :     "resourceType" : "com.bmc.arsys.rx.services.view.domain.ContainerViewComponentDefinition",
-   definition     :     "lastUpdateTime" : 1724158634368,
+   definition     :     "lastUpdateTime" : 1724158634000,
    definition     :     "lastChangedBy" : "dinesh.bandaru",
    definition     :     "owner" : "dinesh.bandaru",
    definition     :     "name" : "0bc05011-5c45-4a8e-a1e5-5fe7f6a5b59b",
@@ -111,7 +137,7 @@ begin view definition
    definition     :     "layout" : "{\"outlets\":[{\"name\":\"DEFAULT\",\"columns\":[{\"children\":[]}]}]}",
    definition     :     "componentDefinitions" : [ {
    definition     :       "resourceType" : "com.bmc.arsys.rx.services.view.domain.ContainerViewComponentDefinition",
-   definition     :       "lastUpdateTime" : 1724158634368,
+   definition     :       "lastUpdateTime" : 1724158634000,
    definition     :       "lastChangedBy" : "dinesh.bandaru",
    definition     :       "owner" : "dinesh.bandaru",
    definition     :       "name" : "cd9e2288-cc2d-4726-b403-f1e32110bfcb",
@@ -142,33 +168,7 @@ begin view definition
    definition     :     } ]
    definition     :   }, {
    definition     :     "resourceType" : "com.bmc.arsys.rx.services.view.domain.ViewComponentDefinition",
-   definition     :     "lastUpdateTime" : 1724158634368,
-   definition     :     "lastChangedBy" : "dinesh.bandaru",
-   definition     :     "owner" : "dinesh.bandaru",
-   definition     :     "name" : "T1",
-   definition     :     "tags" : null,
-   definition     :     "description" : null,
-   definition     :     "overlayGroupId" : "1",
-   definition     :     "internal" : false,
-   definition     :     "guid" : "0e430f4b-18a6-4202-8b2f-d77dca309de3",
-   definition     :     "type" : "com-fusiongbs-sampleappone-samplecomponent",
-   definition     :     "propertiesByName" : {
-   definition     :       "styles" : null,
-   definition     :       "hidden" : "0",
-   definition     :       "message" : "55bd4543-aa59-4d7d-a9c3-ac4ec055ffb0",
-   definition     :       "messageType" : "\"foobars\""
-   definition     :     },
-   definition     :     "permissions" : [ {
-   definition     :       "ownerId" : {
-   definition     :         "value" : 0,
-   definition     :         "type" : "GROUP",
-   definition     :         "name" : "Public"
-   definition     :       },
-   definition     :       "type" : "VISIBLE"
-   definition     :     } ]
-   definition     :   }, {
-   definition     :     "resourceType" : "com.bmc.arsys.rx.services.view.domain.ViewComponentDefinition",
-   definition     :     "lastUpdateTime" : 1724158634368,
+   definition     :     "lastUpdateTime" : 1724158634000,
    definition     :     "lastChangedBy" : "dinesh.bandaru",
    definition     :     "owner" : "dinesh.bandaru",
    definition     :     "name" : "T2",
